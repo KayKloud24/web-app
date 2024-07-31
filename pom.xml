@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>3.8.1-snapshot</version>
+	<version>3.8.1-REALEAS</version>
 	
 	<name>maven-web-application</name>
 
@@ -18,10 +18,10 @@
 
 	<properties>
 		<jdk.version>1.8</jdk.version>
-		<spring.version>5.1.2.RELEASE</spring.version>
+		<spring.version>5.1.2.release</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://44.222.121.67:9000</sonar.host.url>
+		<sonar.host.url>http://3.95.133.192:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>kloud</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>JOMACS Releases Nexus Repository</name>
-	      <url>http://34.239.176.68:8081/repository/webapp-release/</url>
+	      <url>http://44.197.115.185:8081/repository/webapp-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>JOMACS Snapshot Nexus Repository </name>
-	      <url>http://34.239.176.68:8081/repository/webapp-snapshot/</url>
+	      <url>http://44.197.115.185:8081/repository/webapp-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
